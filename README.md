@@ -2,11 +2,14 @@
 
 An email functionality for a HTML form using PHP.
 
+
+Before starting,
+
 Mandatorily fill the sender email address in email.phtml:
-$mail->Username = '';
+      $mail->Username = '';
 
 Mandatorily fill the sender email password in email.phtml:
-$mail->Password = '';
+      $mail->Password = '';
 
-Mandatorily fill the company receiver email address in email.phtml
-$mail->AddAddress('');
+Mandatorily fill the company receiver email address in email.phtml:
+      $mail->AddAddress('');
